@@ -450,17 +450,22 @@
         </div>
         <div class="footer-subcription">
           <h3 class="footer-block-title">Подпишитесь на рассылку</h3>
-          <form class="footer-form">
-            <label for="mail">
+          <form class="footer-form flex">
+            <label type="email">
               <input
-                class="footer-form-imput"
+                class="footer-form-input"
                 type="email"
                 name="mail"
                 id="mail"
                 placeholder="E-mail"
               />
             </label>
-            <button type="submit">Подписаться</button>
+            <button type="submit" class="footer-form-submit">
+              Подписаться
+              <svg class="footer-submit-icon" width="24" height="24">
+                <use href="./images/icons/icons.svg#icon-send"></use>
+              </svg>
+            </button>
           </form>
         </div>
       </div>
