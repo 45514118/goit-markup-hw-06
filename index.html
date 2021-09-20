@@ -68,18 +68,34 @@
           <div class="promo-modal">
             <button class="promo-modal-close" data-modal-close></button>
             <form class="offer-form" action="">
-              <p>Оставьте свои данные, мы вам перезвоним</p>
-              <p>
-                <label>Имя<input type="text" /> </label>
+              <p class="form-title">Оставьте свои данные, мы вам перезвоним</p>
+              <p class="form-block">
+                <label>Имя<input type="text" class="form-input name-input" /> </label>
+              </p>
+              <p class="form-block">
+                <label>Телефон<input type="tel" class="form-input tel-input" /></label>
+              </p>
+              <p class="form-block">
+                <label>Почта<input type="email" class="form-input email-input" /></label>
+              </p>
+              <p class="form-block">
+                <label
+                  >Комментарий
+                  <textarea
+                    class="comment-input"
+                    name="feedback"
+                    placeholder="Введите текст"
+                  ></textarea>
+                </label>
               </p>
               <p>
-                <label>Телефон<input type="text" /></label>
-              </p>
-              <p>
-                <label>Почта<input type="text" /></label>
-              </p>
-              <p>
-                <label>Комментарий<input type="text" /></label>
+                <label for="">
+                  <input
+                    class="check-input visually-hidden"
+                    name="confirm-checkbox"
+                    type="checkbox"
+                  />
+                </label>
               </p>
             </form>
           </div>
