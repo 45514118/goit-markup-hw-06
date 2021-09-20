@@ -40,7 +40,7 @@
         <ul class="contacts flex">
           <li class="header-contacts-item">
             <a href="mailto:info@devstudio.com" class="contact-link flex">
-              <svg class="contact-icon" width="16" height="12">
+              <svg class="contact-icon" width="16" height="16">
                 <use href="./images/icons/icons.svg#icon-mail"></use>
               </svg>
               info@devstudio.com
@@ -48,7 +48,7 @@
           </li>
           <li class="header-contacts-item">
             <a href="tel:+380961111111" class="contact-link flex">
-              <svg class="contact-icon" width="16" height="12">
+              <svg class="contact-icon" width="16" height="16">
                 <use href="./images/icons/icons.svg#icon-smartphone"></use>
               </svg>
               +38 096 111 11 11
@@ -304,7 +304,7 @@
           </address>
         </div>
         <div class="footer-join">
-          <h3 class="footer-join-title">Присоединяйтесь</h3>
+          <h3 class="footer-block-title">Присоединяйтесь</h3>
           <ul class="footer-social flex">
             <li class="footer-social-item">
               <a href="#" class="footer-social-link">
@@ -335,6 +335,26 @@
               </a>
             </li>
           </ul>
+        </div>
+        <div class="footer-subcription">
+          <h3 class="footer-block-title">Подпишитесь на рассылку</h3>
+          <form class="footer-form flex">
+            <label type="email">
+              <input
+                class="footer-form-input"
+                type="email"
+                name="mail"
+                id="mail"
+                placeholder="E-mail"
+              />
+            </label>
+            <button type="submit" class="footer-form-submit">
+              Подписаться
+              <svg class="footer-submit-icon" width="24" height="24">
+                <use href="./images/icons/icons.svg#icon-send"></use>
+              </svg>
+            </button>
+          </form>
         </div>
       </div>
     </footer>
