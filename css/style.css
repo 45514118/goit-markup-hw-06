@@ -302,6 +302,14 @@ textarea {
 .check-label {
   font-size: 14px;
   line-height: 1.71;
+  margin-bottom: 30px;
+}
+.textarea-label {
+  text-align: left;
+  font-size: 12px;
+  line-height: 1.166;
+  letter-spacing: 0.01em;
+  margin-bottom: 20px;
 }
 .form-input {
   width: 100%;
@@ -333,6 +341,29 @@ textarea {
   resize: none;
   padding: 16px;
   margin-top: 4px;
+}
+.modal_form__button {
+  width: 200px;
+  height: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  background: var(--icon-accent-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: 1px solid transparent;
+  cursor: pointer;
+  font-weight: 700;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--primary-white-color);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.modal_form__button:hover,
+.modal_form__button:focus {
+  background: var(--accent-button-color);
 }
 /* About Us */
 .about-us-item,
