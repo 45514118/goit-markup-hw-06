@@ -302,7 +302,12 @@ textarea {
 .check-label {
   font-size: 14px;
   line-height: 1.71;
+  color: #757575;
   margin-bottom: 30px;
+}
+.check-label a {
+  text-decoration-line: underline;
+  color: var(--icon-accent-color);
 }
 .textarea-label {
   text-align: left;
@@ -337,10 +342,15 @@ textarea {
   font-size: 14px;
   line-height: 1.143;
   letter-spacing: 0.01em;
-  color: rgba(117, 117, 117, 0.5);
   resize: none;
   padding: 16px;
   margin-top: 4px;
+}
+.comment-input::placeholder {
+  font-size: 12px;
+  line-height: 1.143;
+  letter-spacing: 0.01em;
+  color: rgba(117, 117, 117, 0.5);
 }
 .modal_form__button {
   width: 200px;
