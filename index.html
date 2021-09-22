@@ -76,7 +76,7 @@
               <label class="form-label">
                 Имя
                 <p class="input-block">
-                  <input type="text" class="form-input name-input" />
+                  <input type="text" class="form-input name-input" name="nickname" />
                   <svg class="input-icon" width="12" height="12">
                     <use href="./images/icons/icons.svg#icon-form-people"></use>
                   </svg>
@@ -85,7 +85,7 @@
               <label class="form-label">
                 Телефон
                 <p class="input-block">
-                  <input type="tel" class="form-input tel-input" />
+                  <input type="tel" class="form-input tel-input" name="phone-number" />
                   <svg class="input-icon" width="12" height="12">
                     <use href="./images/icons/icons.svg#icon-form-tel"></use>
                   </svg>
@@ -94,7 +94,7 @@
               <label class="form-label">
                 Почта
                 <p class="input-block">
-                  <input type="email" class="form-input email-input" />
+                  <input type="email" class="form-input email-input" name="e-mail" />
                   <svg class="input-icon" width="12" height="12">
                     <use href="./images/icons/icons.svg#icon-form-mail"></use>
                   </svg>
@@ -102,7 +102,7 @@
               </label>
               <label class="textarea-label">
                 Комментарий
-                <textarea class="comment-input" name="feedback" placeholder="Введите текст">
+                <textarea class="comment-input" placeholder="Введите текст" name="comment">
                 </textarea>
               </label>
               <label class="check-label flex">
@@ -500,8 +500,7 @@
               <input
                 class="footer-form-input"
                 type="email"
-                name="mail"
-                id="mail"
+                name="subscription"
                 placeholder="E-mail"
               />
             </label>
